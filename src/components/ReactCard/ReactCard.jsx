@@ -30,21 +30,21 @@ const ReactCard = ({ type }) => {
             }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{
-            color: "crimson",
-            backgroundColor: "rgba(255, 0, 0, 0.2)",
-          }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{
             color: "crimson",
             backgroundColor: "rgba(255, 0, 0, 0.2)",
           }}
         />
         ),
-        img:(<img src={z1} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{
+            color: "crimson",
+            backgroundColor: "rgba(255, 0, 0, 0.2)",
+          }}
+        />
+        ),
+        img: (<img src={z1} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card2":
@@ -61,21 +61,21 @@ const ReactCard = ({ type }) => {
             }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{
-            backgroundColor: "rgba(218, 165, 32, 0.2)",
-            color: "goldenrod",
-          }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{
             backgroundColor: "rgba(218, 165, 32, 0.2)",
             color: "goldenrod",
           }}
         />
         ),
-        img:(<img src={z2} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{
+            backgroundColor: "rgba(218, 165, 32, 0.2)",
+            color: "goldenrod",
+          }}
+        />
+        ),
+        img: (<img src={z2} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card3":
@@ -89,15 +89,15 @@ const ReactCard = ({ type }) => {
             style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
         />
         ),
-        img:(<img src={z3} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+        />
+        ),
+        img: (<img src={z3} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card4":
@@ -114,21 +114,21 @@ const ReactCard = ({ type }) => {
             }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{
-            color: "crimson",
-            backgroundColor: "rgba(255, 0, 0, 0.2)",
-          }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{
             color: "crimson",
             backgroundColor: "rgba(255, 0, 0, 0.2)",
           }}
         />
         ),
-        img:(<img src={s1} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{
+            color: "crimson",
+            backgroundColor: "rgba(255, 0, 0, 0.2)",
+          }}
+        />
+        ),
+        img: (<img src={s1} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card5":
@@ -145,21 +145,21 @@ const ReactCard = ({ type }) => {
             }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{
-            backgroundColor: "rgba(218, 165, 32, 0.2)",
-            color: "goldenrod",
-          }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{
             backgroundColor: "rgba(218, 165, 32, 0.2)",
             color: "goldenrod",
           }}
         />
         ),
-        img:(<img src={s2} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{
+            backgroundColor: "rgba(218, 165, 32, 0.2)",
+            color: "goldenrod",
+          }}
+        />
+        ),
+        img: (<img src={s2} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card6":
@@ -173,15 +173,15 @@ const ReactCard = ({ type }) => {
             style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
         />
         ),
-        img:(<img src={s3} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+        />
+        ),
+        img: (<img src={s3} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card7":
@@ -196,21 +196,21 @@ const ReactCard = ({ type }) => {
             }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{
-            color: "crimson",
-            backgroundColor: "rgba(255, 0, 0, 0.2)",
-          }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{
             color: "crimson",
             backgroundColor: "rgba(255, 0, 0, 0.2)",
           }}
         />
         ),
-        img:(<img src={a1} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{
+            color: "crimson",
+            backgroundColor: "rgba(255, 0, 0, 0.2)",
+          }}
+        />
+        ),
+        img: (<img src={a1} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card8":
@@ -225,21 +225,21 @@ const ReactCard = ({ type }) => {
             }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{
-            backgroundColor: "rgba(218, 165, 32, 0.2)",
-            color: "goldenrod",
-          }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{
             backgroundColor: "rgba(218, 165, 32, 0.2)",
             color: "goldenrod",
           }}
         />
         ),
-        img:(<img src={a2} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{
+            backgroundColor: "rgba(218, 165, 32, 0.2)",
+            color: "goldenrod",
+          }}
+        />
+        ),
+        img: (<img src={a2} alt="" className="rectangular-card-image" />),
       };
       break;
     case "card9":
@@ -251,15 +251,15 @@ const ReactCard = ({ type }) => {
             style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
           />
         ),
-        dateicon: (<CalendarTodayIcon className="rectangular-card-icon" 
-        style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
-         />
-        ),
-        locicon:(<LocationOnIcon className="rectangular-card-icon" 
-        style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+        dateicon: (<CalendarTodayIcon className="rectangular-card-icon"
+          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
         />
         ),
-        img:(<img src={a3} alt="" className="rectangular-card-image"/>),
+        locicon: (<LocationOnIcon className="rectangular-card-icon"
+          style={{ backgroundColor: "rgba(0, 128, 0, 0.2)", color: "green" }}
+        />
+        ),
+        img: (<img src={a3} alt="" className="rectangular-card-image" />),
       };
       break;
 
@@ -268,23 +268,25 @@ const ReactCard = ({ type }) => {
   }
   return (
     <div className="rectangle-card">
-        <div>
-            {data.img}
+      <div className="rectangle-card_left">
+        {data.img}
+      </div>
+      <div className="rectangle-card_right">
+        <div className="rectangular-data-icon">
+          <span>{data.eventicon}</span>
+          <span>{data.title}</span>
         </div>
-      <div className="rectangular-data-icon">
-        <span>{data.eventicon}</span>
-        <span>{data.title}</span>
-      </div>
-      <div className="rectangular-card-description">
-        <p>{data.description}</p>
-      </div>
-      <div className="rectangular-data-icon">
-        <span>{data.dateicon}</span>
-        <span>Date:</span>
-      </div>
-      <div className="rectangular-data-icon">
-        <span>{data.locicon}</span>
-        <span>Location:</span>
+        <div className="rectangular-card-description">
+          <p>{data.description}</p>
+        </div>
+        <div className="rectangular-data-icon">
+          <span>{data.dateicon}</span>
+          <span>Date:</span>
+        </div>
+        <div className="rectangular-data-icon">
+          <span>{data.locicon}</span>
+          <span>Location:</span>
+        </div>
       </div>
     </div>
   );
